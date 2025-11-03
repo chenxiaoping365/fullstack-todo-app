@@ -1,0 +1,30 @@
+# Node / general
+node_modules/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+package-lock.json
+
+# Build outputs
+client/dist/
+server/dist/
+*.tsbuildinfo
+
+# Env & secrets
+.env
+.env.*
+
+# OS / editor
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# Replit
+.replit
+
+# Coverage & cache
+coverage/
+.cache/
